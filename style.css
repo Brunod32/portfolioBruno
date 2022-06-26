@@ -1,11 +1,11 @@
 #firstRowHomePage {
     min-height: 100vh;
-    background-image: url("/img/fondDev.jpg");
+    background-image: url("img/FondDev.jpg");
     background-position: center;
 }
 
 #text-presentation {
-    background-color: #0c0c0ced;
+    background-color: #0c0c0ce0;
     margin-top: -200px;
 }
 
