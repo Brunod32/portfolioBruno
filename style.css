@@ -25,6 +25,7 @@
 }
 
 #mouseBtn i {
+    color: white;
     font-size: 40px;
     transform: rotate(180deg);
     position: absolute;
@@ -37,4 +38,25 @@
     transform: scale(2);
     cursor: pointer;
     color: cornflowerblue;
+}
+
+.profilPhoto {
+    width: 450px;
+    /* max-width: 100%; */
+    border-radius: 25%;
+}
+
+.btn-social-share {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+.all-skills .card-img-top{
+    max-width: 100px;
+    margin: auto;
+}
+
+a {
+    text-decoration: none;
 }
