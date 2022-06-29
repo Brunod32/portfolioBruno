@@ -6,7 +6,7 @@
 
 #text-presentation {
     background-color: #0c0c0ce0;
-    margin-top: -200px;
+    padding-top: 150px;
 }
 
 .description {
@@ -59,4 +59,16 @@
 
 a {
     text-decoration: none;
+}
+
+#about {
+    background-color: #2e3135;
+}
+
+a.nav-link.active {
+    color: blue !important;
+}
+
+#navbarSite {
+    transition: 0.8s;
 }
