@@ -4,12 +4,12 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <!-- Icons Bootstrap -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/Moi.jpg" type="image/x-icon">
     <title>Bruno Dahlem - CV en ligne</title>
 </head>
 <body class="bg-dark text-light">
@@ -25,12 +25,12 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
-                <!-- </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Features</a>
+                    <a class="nav-link active" aria-current="page" href="#about">Qui suis-je ?</a>
                 </li>
                 <li class="nav-item">
+                    <a class="nav-link" href="#skills">Compétences</a>
+                </li>
+                <!-- <li class="nav-item">
                     <a class="nav-link" href="#">Pricing</a>
                 </li>
                 <li class="nav-item">
@@ -71,23 +71,23 @@
                 <br>
                 j'ai 41 ans.</p> -->
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Je m'appelle Bruno Dahlem et j'ai 41 ans.
                     <br>
                     <br>
-                    Quisque facilisis neque id tortor porta, et tempor massa egestas. Aliquam ullamcorper est ut enim ultrices.
+                    Après une expérience réussie de 14 ans dans le commerce, j'ai entrepris une reconversion professionnelle en suivant une formation de Développeur web et web mobile.
                     <br>
                     <br>
-                    Quisque consectetur leo a ipsum volutpat commodo. Nulla facilisi.
+                    Passionné par les nouvelles technologies, j'aime aussi découvrir de nouveaux langages de programmation.
                     <br>
                 </p>
                 <div>
-                    <button class="btn-social-share btn btn-outline-success mx-2"><a class="text-success" href=""><i class="bi bi-linkedin"></i></a></button>
-                    <button class="btn-social-share btn btn-outline-success"><a class="text-success" href="https://github.com/Brunod32" target="_blank"><i class="bi bi-github"></i></a></button>
+                    <button class="btn-social-share btn btn-outline-primary mx-2"><a class="text-primary" href="https://www.linkedin.com/in/bruno-dahlem-05b283229/" target="_blank"><i class="bi bi-linkedin"></i></a></button>
+                    <button class="btn-social-share btn btn-outline-primary"><a class="text-primary" href="https://github.com/Brunod32" target="_blank"><i class="bi bi-github"></i></a></button>
                 </div>
             </div>
         </div>
         <!-- Mes compétences -->
-        <div class="row text-center mt-5 mb-5">
+        <div class="row text-center mt-5 mb-5" id="skills">
             <h2>Mes compétences</h2>
             <p class="text-secondary">
                 Retrouver ici les langages et technologies que je pratique.
@@ -96,8 +96,7 @@
                 <div class="p-3">
                     <div class="card bg-dark p-3 border-light h-100">
                         <div>
-                            <img src="/img/HTML5.png" class="card-img-top" alt="HTML">
-                            <img src="/img/CSS3.png" class="card-img-top" alt="CSS">
+                            <img src="img/HTML5.png" class="card-img-top" alt="HTML">
                         </div>
                         <div class="card-body">
                             <h5 class="card-title">HTML</h5>
@@ -112,14 +111,35 @@
                                 <i class="bi bi-star-fill"></i>
                                 <i class="bi bi-star-fill"></i>
                                 <i class="bi bi-star-fill"></i>
-                                <i class="bi bi-star-half"></i>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="p-3">
                     <div class="card bg-dark p-3 border-light h-100">
-                        <img src="/img/JS.png" class="card-img-top" alt="Javascript">
+                        <div>
+                            <img src="img/CSS3.png" class="card-img-top" alt="CSS">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">HTML</h5>
+                            <!-- <p class="card-text">Mon premier site, réalisé dans le cadre d'une évaluation d'entrainement en cours de formation, 
+                                <a href="https://hellinbreizh.herokuapp.com/" target="_blank">Hell in Breizh</a>
+                            </p>
+                            <p class="card-text">Autre exemple de réalisation de site front-end utilisant un générateur de site statique et un CMS headless, le projet 
+                                <a href="https://charlescantinphotographe.netlify.app/index.html" target="_blank">Charles Cantin</a>
+                            </p> -->
+                            <div class="footer text-danger">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="p-3">
+                    <div class="card bg-dark p-3 border-light h-100">
+                        <img src="img/JS.png" class="card-img-top" alt="Javascript">
                         <div class="card-body">
                             <h5 class="card-title">Javascript</h5>
                             <!-- <p class="card-text">Retrouvez <a href="https://lejeudede.herokuapp.com/" target="_blank">ici</a> un jeu de dé.</p> -->
@@ -134,7 +154,7 @@
                 </div>
                 <div class="p-3">
                     <div class="card bg-dark p-3 border-light h-100">
-                        <img src="/img/Bootstrap.png" class="card-img-top" alt="Bootstrap">
+                        <img src="img/Bootstrap.png" class="card-img-top" alt="Bootstrap">
                         <div class="card-body">
                             <h5 class="card-title">Bootstrap</h5>
                             <!-- <p class="card-text">Ce <a href="https://brunod32.github.io/portfolioBruno/" target="_blank">portfolio</a> a été stylisé en grande partie avec Bootstrap.</p> -->
@@ -149,7 +169,7 @@
                 </div>
                 <div class="p-3">
                     <div class="card bg-dark p-3 border-light h-100">
-                        <img src="/img/php-symfony.png" class="card-img-top" alt="Php Symfony">
+                        <img src="img/php-symfony.png" class="card-img-top" alt="Php Symfony">
                         <div class="card-body">
                             <h5 class="card-title">Javascript</h5>
                             <!-- <p class="card-text">Projet réalisé pour mon fils, "<a href="https://lecarnetdepechedetom.herokuapp.com/" target="_blank"> Le carnet de pêche de Tom</a>"</p> -->
@@ -157,13 +177,14 @@
                                 <i class="bi bi-star-fill"></i>
                                 <i class="bi bi-star-fill"></i>
                                 <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-half"></i>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="p-3">
                     <div class="card bg-dark p-3 border-light h-100">
-                        <img src="/img/React.png" class="card-img-top" alt="React">
+                        <img src="img/React.png" class="card-img-top" alt="React">
                         <div class="card-body">
                             <h5 class="card-title">React et React native</h5>
                             <!-- <p class="card-text"><a href="https://brunod32.github.io/react-drum-machine/" target="_blank">react-drum-machine</a> project</p> -->
@@ -176,7 +197,7 @@
                 </div>
                 <div class="p-3">
                     <div class="card bg-dark p-3 border-light h-100">
-                        <img src="/img/wordpress.png" class="card-img-top" alt="PWordpress">
+                        <img src="img/wordpress.png" class="card-img-top" alt="PWordpress">
                         <div class="card-body">
                             <h5 class="card-title">Worpress</h5>
                             <!-- <p class="card-text">Déploiement à venir</p> -->
