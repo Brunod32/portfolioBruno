@@ -1,3 +1,10 @@
+/* Color variables */
+
+
+.main-content-website section:nth-child(2n){
+    background-color: #2e3135;
+}
+
 #firstRowHomePage {
     min-height: 100vh;
     background-image: url("img/FondDev.jpg");
@@ -61,14 +68,38 @@ a {
     text-decoration: none;
 }
 
-#about {
-    background-color: #2e3135;
-}
-
 a.nav-link.active {
     color: blue !important;
 }
 
 #navbarSite {
     transition: 0.8s;
+    z-index: 1000;
+}
+
+.description-release {
+    color: #8b8c8d;
+}
+
+.carousel-indicators .active {
+    background-color: red;
+}
+
+.img-thumbnail {
+    max-width: 75%;
+}
+
+#scroll-top-btn {
+    position:fixed;
+    bottom: 10px;
+    right: 10px;
+    background-color: red;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.5s
+}
+
+#scroll-top-btn.show {
+    opacity: 1;
+    visibility: visible;
 }
