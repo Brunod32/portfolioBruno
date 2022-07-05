@@ -37,7 +37,7 @@
                         <a class="nav-link" href="#release">Réalisations</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
+                        <a class="nav-link" href="#contact">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -52,10 +52,10 @@
                 <div class="row row-cols-1" id="firstRowHomePage">
                     <div class="d-flex justify-content-center align-items-center flex-column text-center" id="text-presentation">
                         <h3 class="text-bienvenue">Bienvenue !</h3>
-                        <div class="big-text">Je suis Développeur en formation</div>
-                        <p class="description">Je m'appelle Bruno et je développe depuis janvier 2021</p>
+                        <div class="big-text mb-5">Je suis Développeur (en formation)</div>
+                        <!-- <p class="description">Je m'appelle Bruno et je développe depuis janvier 2021</p> -->
                         <div class="btn-container">
-                            <a href="/docs/CV Bruno Dahlem.pdf" target="_blank" class="btn btn-outline-info">Télécharger mon CV</a>
+                            <a href="docs/CV Bruno Dahlem.pdf" target="_blank" class="btn btn-outline-info">Télécharger mon CV</a>
                         </div>
                         <div id="mouseBtn" class="m-auto">
                             <a href="#about"><i class="bi bi-mouse"></i></a>
@@ -66,7 +66,7 @@
         </section>
 
         <!-- Qui suis-je -->
-        <section class="py-5">
+        <section class="py-5" id="about">
             <div class="container">
                 <div class="row row-cols-1 row-cols-md-2 align-items-center pt-5 pb-5 mt-5 mb-5">
                     <div>
@@ -224,9 +224,9 @@
                 
         <!-- Réalisations -->
         <section id="release" class="py-5 text-center">
-            <h2 class="mb-5 mt-5">Mes réalisations</h2>
-            <p><i>Retrouvez ici quelques unes de mes réalisations</i></p>
-            <div class="container">
+            <h2 class="mt-5">Mes réalisations</h2>
+            <p class="text-secondary pb-3">Retrouvez ici quelques unes de mes réalisations></p>
+            <div class="container py-3">
                 <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-indicators mb-0">
                       <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -269,7 +269,7 @@
         </section>
 
         <!-- Contact -->
-        <section class="py-5 text-center">
+        <section id="contact" class="py-5 text-center" id="contact">
             <h2 class="pb-3">Mon travail vous a plu ?</h2>
             <a href="mailto:brunod.dev@gmail.com"><button class="btn btn-danger">Me contacter</button></a>
         </section>
