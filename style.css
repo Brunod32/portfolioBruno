@@ -1,8 +1,13 @@
 /* Color variables */
+body {
+    --red-color:rgb(255, 61, 61, 0.741);
+    --back-color: #2e3135;
+    --link-color: rgb(0,0,255);
+}
 
 
 .main-content-website section:nth-child(2n){
-    background-color: #2e3135;
+    background-color: var(--back-color);
 }
 
 #firstRowHomePage {
@@ -69,7 +74,7 @@ a {
 }
 
 a.nav-link.active {
-    color: blue !important;
+    color: var(--link-color) !important;
 }
 
 #navbarSite {
@@ -82,7 +87,7 @@ a.nav-link.active {
 }
 
 .carousel-indicators .active {
-    background-color: red;
+    background-color: var(--red-color);
 }
 
 .img-thumbnail {
@@ -93,7 +98,7 @@ a.nav-link.active {
     position:fixed;
     bottom: 10px;
     right: 10px;
-    background-color: red;
+    background-color: var(--red-color);
     visibility: hidden;
     opacity: 0;
     transition: all 0.5s
@@ -102,4 +107,14 @@ a.nav-link.active {
 #scroll-top-btn.show {
     opacity: 1;
     visibility: visible;
+}
+
+.card:hover {
+    box-shadow: 10px 10px 20px lightgray;
+}
+
+.bi-envelope,
+.bi-telephone {
+    font-size: 3rem;
+    color: var(--link-color);
 }
