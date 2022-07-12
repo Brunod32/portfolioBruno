@@ -81,6 +81,7 @@ a {
     text-decoration: none;
 }
 
+/* Navbar */
 a.nav-link.active {
     color: var(--link-color) !important;
 }
