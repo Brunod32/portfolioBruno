@@ -32,13 +32,13 @@ body {
     font-size: 22px;
 }
 
-.titreDWWM {
+.titres {
     height: 200px;
     width: auto;
     transition: all 2s ease;
 }
 
-.titreDWWM:hover {
+.titres:hover {
     width: 50%;
     height: auto;
     transition: all 2s ease;
