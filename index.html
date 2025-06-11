@@ -1,422 +1,672 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="fr">
-<head>
+  <head>
     <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Bienvenue sur mon portfolio. Vous y trouvez les langages que j'utilise et quelques réalisations.">
-    <meta name="keywords" content="portfolio, CV"/>
-    <meta name="author" content="Bruno Dahlem"/>
-    <meta name="copyright" content="Bruno Dahlem"/>    
-    <meta name="robots" content="index"/>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Bienvenue sur mon portfolio. Vous y trouvez les langages que j'utilise et quelques réalisations."
+    />
+    <meta name="keywords" content="portfolio, CV" />
+    <meta name="author" content="Bruno Dahlem" />
+    <meta name="copyright" content="Bruno Dahlem" />
+    <meta name="robots" content="index" />
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
     <!-- Icons Bootstrap -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="img/Moi.jpg" type="image/x-icon">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="img/Moi.jpg" type="image/x-icon" />
     <title>Bruno Dahlem - CV en ligne</title>
-</head>
-<body class="bg-dark text-light" data-bs-spy="scroll" data-bs-target="#navbarSite" data-bs-smooth-scroll="true" tabindex="0">
+  </head>
+  <body
+    class="bg-dark text-light"
+    data-bs-spy="scroll"
+    data-bs-target="#navbarSite"
+    data-bs-smooth-scroll="true"
+    tabindex="0"
+  >
     <header>
-        <nav id="navbarSite" class="position-fixed navbar navbar-expand-lg navbar-dark bg-transparent w-100">
-            <div class="container-fluid">
-            <a class="navbar-brand" href="#accueil">
-                <i class="bi bi-code-slash"></i> Bruno Dahlem
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav nav">
-                    <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#about">Qui suis-je ?</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#skills">Compétences</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#release">Réalisations</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contact</a>
-                    </li>
-                </ul>
-            </div>
-            </div>
-        </nav>
+      <nav
+        id="navbarSite"
+        class="position-fixed navbar navbar-expand-lg navbar-dark bg-transparent w-100"
+      >
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#accueil">
+            <i class="bi bi-code-slash"></i> Bruno Dahlem
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav nav">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#about"
+                  >Qui suis-je ?</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#skills">Compétences</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#release">Réalisations</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
     </header>
 
     <main class="main-content-website">
-        <!-- Accueil -->
-        <section id="accueil">
-            <div class="container-fluid">
-                <div class="row row-cols-1" id="firstRowHomePage">
-                    <div class="d-flex justify-content-center align-items-center flex-column text-center" id="text-presentation">
-                        <h3 class="text-bienvenue">Bienvenue !</h3>
-                        <div class="big-text mb-5">Concepteur Développeur d'Application</div>
-                        <div class="btn-container">
-                            <a href="docs/CV_Bruno_Dahlem_DeveloppeurWeb.pdf" target="_blank" class="btn btn-outline-info">Télécharger mon CV</a>
-                        </div>
+      <!-- Accueil -->
+      <section id="accueil">
+        <div class="container-fluid">
+          <div class="row row-cols-1" id="firstRowHomePage">
+            <div
+              class="d-flex justify-content-center align-items-center flex-column text-center"
+              id="text-presentation"
+            >
+              <h3 class="text-bienvenue">Bienvenue !</h3>
+              <div class="big-text mb-5">
+                Concepteur Développeur d'Application
+              </div>
+              <div class="btn-container">
+                <a
+                  href="docs/CV_Bruno_Dahlem_DeveloppeurWeb.pdf"
+                  target="_blank"
+                  class="btn btn-outline-info"
+                  >Télécharger mon CV</a
+                >
+              </div>
 
-                        <div class="my-5">
-                            <img class="titres" src="docs/titreDWWM.jpg" alt="Image de mon titre Développeur Web et Web Mobile">
-                            <img class="titres" src="docs/titreCDA.jpg" alt="Image de mon titre Concepteur Développeur d'Application">
-                        </div>
-                        <!-- <div id="mouseBtn" class="m-auto">
+              <div class="my-5">
+                <img
+                  class="titres"
+                  src="docs/titreDWWM.jpg"
+                  alt="Image de mon titre Développeur Web et Web Mobile"
+                />
+                <img
+                  class="titres"
+                  src="docs/titreCDA.jpg"
+                  alt="Image de mon titre Concepteur Développeur d'Application"
+                />
+              </div>
+              <!-- <div id="mouseBtn" class="m-auto">
                             <a href="#about"><i class="bi bi-mouse"></i></a>
                         </div> -->
-                    </div>
-                </div>
             </div>
-        </section>
+          </div>
+        </div>
+      </section>
 
-        <!-- Qui suis-je -->
-        <section class="py-5" id="about">
-            <div class="container">
-                <div class="row row-cols-1 row-cols-md-2 align-items-center pt-5 pb-5 mt-5 mb-3">
-                    <div class="d-flex justify-content-center mb-5">
-                        <img src="img/DAHLEM Bruno.jpg" class="profilPhoto img-thumbnail" alt="Photo de moi">
-                    </div>
-                    <div class="pt-2 pb-2">
-                        <h2 class="pb-3">Qui suis-je ?</h2>
-                        <p>
-                            Je m'appelle <span class="text-primary">Bruno Dahlem</span> et j'ai 43 ans.
-                            <br>
-                            <br>
-                            Après une expérience réussie de 14 ans dans le commerce, j'ai entrepris une reconversion professionnelle en suivant une formation de Développeur Web et Web Mobile puis de Concepteur Développeur d'Applications.
-                            <br>
-                            <br>
-                            Passionné par les nouvelles technologies, j'aime découvrir de nouveaux langages de programmation.
-                            <br>
-                        </p>
-                        <div>
-                            <button class="btn-social-share btn btn-outline-primary mx-2"><a class="text-primary" href="https://www.linkedin.com/in/bruno-dahlem-05b283229/" target="_blank"><i class="bi bi-linkedin"></i></a></button>
-                            <button class="btn-social-share btn btn-outline-primary"><a class="text-primary" href="https://github.com/Brunod32" target="_blank"><i class="bi bi-github"></i></a></button>
-                        </div>
-                    </div>
-                </div>
+      <!-- Qui suis-je -->
+      <section class="py-5" id="about">
+        <div class="container">
+          <div
+            class="row row-cols-1 row-cols-md-2 align-items-center pt-5 pb-5 mt-5 mb-3"
+          >
+            <div class="d-flex justify-content-center mb-5">
+              <img
+                src="img/DAHLEM Bruno.jpg"
+                class="profilPhoto img-thumbnail"
+                alt="Photo de moi"
+              />
             </div>
-        </section>
+            <div class="pt-2 pb-2">
+              <h2 class="pb-3">Qui suis-je ?</h2>
+              <p>
+                Je m'appelle <span class="text-primary">Bruno Dahlem</span> et
+                j'ai 43 ans.
+                <br />
+                <br />
+                Après une expérience réussie de 14 ans dans le commerce, j'ai
+                entrepris une reconversion professionnelle en suivant une
+                formation de Développeur Web et Web Mobile puis de Concepteur
+                Développeur d'Applications.
+                <br />
+                <br />
+                Passionné par les nouvelles technologies, j'aime découvrir de
+                nouveaux langages de programmation.
+                <br />
+              </p>
+              <div>
+                <button class="btn-social-share btn btn-outline-primary mx-2">
+                  <a
+                    class="text-primary"
+                    href="https://www.linkedin.com/in/bruno-dahlem-05b283229/"
+                    target="_blank"
+                    ><i class="bi bi-linkedin"></i
+                  ></a>
+                </button>
+                <button class="btn-social-share btn btn-outline-primary">
+                  <a
+                    class="text-primary"
+                    href="https://github.com/Brunod32"
+                    target="_blank"
+                    ><i class="bi bi-github"></i
+                  ></a>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
-        <!-- Mes compétences -->
-        <section id="skills"  class="py-5">
-            <div class="container">
-                <div class="row text-center mt-5 mb-5">
-                    <h2>Mes compétences</h2>
-                    <p class="text-secondary">
-                        Retrouvez ici les langages et technologies que je pratique.
-                    </p>
-                    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 mt-3 all-skills">
-                        <div class="p-3">
-                            <div class="card bg-dark p-3 border-light h-100">
-                                <div>
-                                    <img src="img/languages/HTML5.png" class="card-img-top" alt="HTML">
-                                </div>
-                                <div class="card-body">
-                                    <h5 class="card-title">HTML</h5>
-                                    <!-- <div class="footer text-warning">
+      <!-- Mes compétences -->
+      <section id="skills" class="py-5">
+        <div class="container">
+          <div class="row text-center mt-5 mb-5">
+            <h2>Mes compétences</h2>
+            <p class="text-secondary">
+              Retrouvez ici les langages et technologies que je pratique.
+            </p>
+            <div
+              class="row row-cols-1 row-cols-sm-2 row-cols-md-3 mt-3 all-skills"
+            >
+              <div class="p-3">
+                <div class="card bg-dark p-3 border-light h-100">
+                  <div>
+                    <img
+                      src="img/languages/HTML5.png"
+                      class="card-img-top"
+                      alt="HTML"
+                    />
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">HTML</h5>
+                    <!-- <div class="footer text-warning">
                                         <i class="bi bi-star-fill"></i>
                                         <i class="bi bi-star-fill"></i>
                                         <i class="bi bi-star-fill"></i>
                                         <i class="bi bi-star-fill"></i>
                                     </div> -->
-                                </div>
-                            </div>
-                        </div>
-                        <div class="p-3">
-                            <div class="card bg-dark p-3 border-light h-100">
-                                <div>
-                                    <img src="img/languages/CSS3.png" class="card-img-top" alt="CSS">
-                                </div>
-                                <div class="card-body">
-                                    <h5 class="card-title">CSS</h5>
-                                    <!-- <div class="footer text-warning">
+                  </div>
+                </div>
+              </div>
+              <div class="p-3">
+                <div class="card bg-dark p-3 border-light h-100">
+                  <div>
+                    <img
+                      src="img/languages/CSS3.png"
+                      class="card-img-top"
+                      alt="CSS"
+                    />
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">CSS</h5>
+                    <!-- <div class="footer text-warning">
                                         <i class="bi bi-star-fill"></i>
                                         <i class="bi bi-star-fill"></i>
                                         <i class="bi bi-star-fill"></i>
                                         <i class="bi bi-star-fill"></i>
                                     </div> -->
-                                </div>
-                            </div>
-                        </div>
-                        <div class="p-3">
-                            <div class="card bg-dark p-3 border-light h-100">
-                                <img src="img/languages/JS.png" class="card-img-top" alt="Javascript">
-                                <div class="card-body">
-                                    <h5 class="card-title">Javascript</h5>
-                                    <!-- <div class="footer text-warning">
+                  </div>
+                </div>
+              </div>
+              <div class="p-3">
+                <div class="card bg-dark p-3 border-light h-100">
+                  <img
+                    src="img/languages/JS.png"
+                    class="card-img-top"
+                    alt="Javascript"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Javascript</h5>
+                    <!-- <div class="footer text-warning">
                                         <i class="bi bi-star-fill"></i>
                                         <i class="bi bi-star-fill"></i>
                                         <i class="bi bi-star-fill"></i>
                                         <i class="bi bi-star-half"></i>
                                     </div> -->
-                                </div>
-                            </div>
-                        </div>
-                        <div class="p-3">
-                            <div class="card bg-dark p-3 border-light h-100">
-                                <img src="img/languages/Bootstrap.png" class="card-img-top" alt="Bootstrap">
-                                <div class="card-body">
-                                    <h5 class="card-title">Bootstrap</h5>
-                                    <!-- <div class="footer text-warning">
-                                        <i class="bi bi-star-fill"></i>
-                                        <i class="bi bi-star-fill"></i>
-                                        <i class="bi bi-star-fill"></i>
-                                        <i class="bi bi-star-half"></i>
-                                    </div> -->
-                                </div>
-                            </div>
-                        </div>
-                        <div class="p-3">
-                            <div class="card bg-dark p-3 border-light h-100">
-                                <img src="img/languages/php-symfony.png" class="card-img-top" alt="Php Symfony">
-                                <div class="card-body">
-                                    <h5 class="card-title">PHP / Symfony</h5>
-                                    <!-- <div class="footer text-warning">
-                                        <i class="bi bi-star-fill"></i>
-                                        <i class="bi bi-star-fill"></i>
-                                        <i class="bi bi-star-fill"></i>
-                                        <i class="bi bi-star-half"></i>
-                                    </div> -->
-                                </div>
-                            </div>
-                        </div>
-                        <div class="p-3">
-                            <div class="card bg-dark p-3 border-light h-100">
-                                <img src="img/languages/sql.png" class="card-img-top" alt="SQL">
-                                <div class="card-body">
-                                    <h5 class="card-title">SQL</h5>
-                                    <!-- <div class="footer text-warning">
-                                        <i class="bi bi-star-fill"></i>
-                                        <i class="bi bi-star-fill"></i>
-                                        <i class="bi bi-star-fill"></i>
-                                        <i class="bi bi-star-half"></i>
-                                    </div> -->
-                                </div>
-                            </div>
-                        </div>
-                        <div class="p-3">
-                            <div class="card bg-dark p-3 border-light h-100">
-                                <img src="img/languages/java.png" class="card-img-top" alt="Java">
-                                <div class="card-body">
-                                    <h5 class="card-title">Java</h5>
-                                    <!-- <div class="footer text-warning">
-                                        <i class="bi bi-star-fill"></i>
-                                        <i class="bi bi-star-half"></i>
-                                    </div> -->
-                                </div>
-                            </div>
-                        </div>
-                        <div class="p-3">
-                            <div class="card bg-dark p-3 border-light h-100">
-                                <img src="img/languages/React.png" class="card-img-top" alt="React">
-                                <div class="card-body">
-                                    <h5 class="card-title">React et React native</h5>
-                                    <!-- <div class="footer text-warning">
-                                        <i class="bi bi-star-fill"></i>
-                                        <i class="bi bi-star-fill"></i>
-                                    </div> -->
-                                </div>
-                            </div>
-                        </div>
-                        <div class="p-3">
-                            <div class="card bg-dark p-3 border-light h-100">
-                                <img src="img/languages/wordpress.png" class="card-img-top" alt="Wordpress">
-                                <div class="card-body">
-                                    <h5 class="card-title">Wordpress</h5>
-                                    <!-- <div class="footer text-warning">
-                                        <i class="bi bi-star-fill"></i>
-                                        <i class="bi bi-star-fill"></i>
-                                    </div> -->
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div>
-                        <h2 class="mt-5">IDE et outils utilisés</h2>
-                       
-                        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 mt-5 all-skills">
-                            <div class="p-3">
-                                <div class="card bg-dark p-3 border-light h-100">
-                                    <img src="img/ide_outils/vs-code-logo.png" class="card-img-top" alt="Logo de Visual Studio Code">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Visual Studio Code</h5>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="p-3">
-                                <div class="card bg-dark p-3 border-light h-100">
-                                    <img src="img/ide_outils/jetBrains.png" class="card-img-top" alt="Logo de la Suite JetBrains">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Suite JetBrains</h5>
-                                        <p class="text-secondary">
-                                            IntelliJ IDEA, PHPHStorm, Webstorm
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="p-3">
-                                <div class="card bg-dark p-3 border-light h-100">
-                                    <img src="img/ide_outils/eclipse.png" class="card-img-top" alt="Logo d'Eclipse">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Eclipse</h5>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="p-3">
-                                <div class="card bg-dark p-3 border-light h-100">
-                                    <img src="img/ide_outils/spring-logo.png" class="card-img-top" alt="Logo de Spring tools suite">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Spring Tools Suite</h5>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="p-3">
-                                <div class="card bg-dark p-3 border-light h-100">
-                                    <img src="img/ide_outils/mysqlcli.png" class="card-img-top" alt="Logo de MySQL CLI">
-                                    <div class="card-body">
-                                        <h5 class="card-title">MySQL CLI</h5>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="p-3">
-                                <div class="card bg-dark p-3 border-light h-100">
-                                    <img src="img/ide_outils/SSMS.png" class="card-img-top" alt="SQL Server Management Studio">
-                                    <div class="card-body">
-                                        <h5 class="card-title">SQL Server Management Studio</h5>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="p-3">
-                                <div class="card bg-dark p-3 border-light h-100">
-                                    <img src="img/ide_outils/phpMyAdmin.png" class="card-img-top" alt="Logo de hpMyAdmin">
-                                    <div class="card-body">
-                                        <h5 class="card-title">PhpMyAdmin</h5>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="p-3">
-                                <div class="card bg-dark p-3 border-light h-100">
-                                    <img src="img/ide_outils/github.png" class="card-img-top" alt="Logo de Github">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Github</h5>
-                                    </div>
-                                </div>
-                            </div>
-                            
-                        </div>
-                    </div>
-
-
-                    <div>
-                        <h2 class="mt-5">Mes opens badges</h2>
-                        <p class="text-secondary">
-                            Retrouvez ici mes attestations délivrées par l'association "Retravailler dans l'ouest" reconnaissant 
-                            certaines de mes aptitudes.
-                        </p>
-                        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 mt-5 all-skills">
-                            <div class="p-3">
-                                <img src="img/openBadges/autonomie.png" alt="Open badge autonomie">
-                            </div>
-                            <div class="p-3">
-                                <img src="img/openBadges/curiosita.png" alt="Open badge curiosité">
-                            </div>
-                            <div class="p-3">
-                                <img src="img/openBadges/gestion-du-stress.png" alt="Open badge gestion du stress">
-                            </div>
-                            <div class="p-3">
-                                <img src="img/openBadges/rigueur.png" alt="Open badge rigueur">
-                            </div>
-                            <div class="p-3">
-                                <img src="img/openBadges/sens-de-l-organisation.png" alt="Open badge sens de l'organisation">
-                            </div>
-                            <div class="p-3">
-                                <img src="img/openBadges/travail-en-a-quipe.png" alt="Open badge travail en équipe">
-                            </div>
-                        </div>
-
-                    </div>
+                  </div>
                 </div>
+              </div>
+              <div class="p-3">
+                <div class="card bg-dark p-3 border-light h-100">
+                  <img
+                    src="img/languages/Bootstrap.png"
+                    class="card-img-top"
+                    alt="Bootstrap"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Bootstrap</h5>
+                    <!-- <div class="footer text-warning">
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-half"></i>
+                                    </div> -->
+                  </div>
+                </div>
+              </div>
+              <div class="p-3">
+                <div class="card bg-dark p-3 border-light h-100">
+                  <img
+                    src="img/languages/php-symfony.png"
+                    class="card-img-top"
+                    alt="Php Symfony"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">PHP / Symfony</h5>
+                    <!-- <div class="footer text-warning">
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-half"></i>
+                                    </div> -->
+                  </div>
+                </div>
+              </div>
+              <div class="p-3">
+                <div class="card bg-dark p-3 border-light h-100">
+                  <img
+                    src="img/languages/sql.png"
+                    class="card-img-top"
+                    alt="SQL"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">SQL</h5>
+                    <!-- <div class="footer text-warning">
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-half"></i>
+                                    </div> -->
+                  </div>
+                </div>
+              </div>
+              <div class="p-3">
+                <div class="card bg-dark p-3 border-light h-100">
+                  <img
+                    src="img/languages/java.png"
+                    class="card-img-top"
+                    alt="Java"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Java</h5>
+                    <!-- <div class="footer text-warning">
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-half"></i>
+                                    </div> -->
+                  </div>
+                </div>
+              </div>
+              <div class="p-3">
+                <div class="card bg-dark p-3 border-light h-100">
+                  <img
+                    src="img/languages/React.png"
+                    class="card-img-top"
+                    alt="React"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">React et React native</h5>
+                    <!-- <div class="footer text-warning">
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                    </div> -->
+                  </div>
+                </div>
+              </div>
+              <div class="p-3">
+                <div class="card bg-dark p-3 border-light h-100">
+                  <img
+                    src="img/languages/wordpress.png"
+                    class="card-img-top"
+                    alt="Wordpress"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Wordpress</h5>
+                    <!-- <div class="footer text-warning">
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                    </div> -->
+                  </div>
+                </div>
+              </div>
+              <div class="p-3">
+                <div class="card bg-dark p-3 border-light h-100">
+                  <img
+                    src="img/languages/sfcc.png"
+                    class="card-img-top"
+                    alt="Wordpress"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Salesforce Commerce Cloud</h5>
+                    <!-- <div class="footer text-warning">
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                    </div> -->
+                  </div>
+                </div>
+              </div>
             </div>
-        </section>
-                
-        <!-- Réalisations -->
-        <section id="release" class="py-5 text-center">
-            <h2 class="mt-5">Mes réalisations</h2>
-            <p class="text-secondary pb-3">Retrouvez ici quelques uns de mes projets</p>
-            <div class="container py-3">
-                <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-                    <div class="carousel-indicators mb-0">
-                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                    </div>
-                    <div class="carousel-inner">
-                      <div class="carousel-item active">
-                        <img src="img/dicegame.png" class="d-block m-auto img-thumbnail " alt="Image du jeu de dé">
-                        <div class="py-3">
-                          <p class="description-release"><i>Un jeu de dé réalisé en HTML, CSS et javascript</i></p>
-                          <p>Envie de jouer ? <a href="https://brunod32.github.io/lejeudede" target="_blank">Lancer les dés</a></p>
-                        </div>
-                      </div>
-                      <div class="carousel-item">
-                        <img src="img/CharlesCantin.png" class="d-block m-auto img-thumbnail" alt="image site internet">
-                        <div class="py-3">
-                          <p class="description-release"><i>Un site réalisé avec eleventy et forestry</i></p>
-                          <p><a href="https://charlescantinphotographe.netlify.app/index.html" target="_blank">Consulter</a></p>
-                        </div>
-                      </div>
-                      <div class="carousel-item">
-                        <img src="img/Carnetdepeche.png" class="d-block m-auto img-thumbnail" alt="Le carnte de pêceh de Tom">
-                        <div class="py-3">
-                          <p class="description-release"><i>Une application PHP/symfony</i></p>
-                          <p><a href="https://lecarnetdepechedetom.herokuapp.com/" target="_blank">Aller voir les prises</a></p>
-                        </div>
-                      </div>
-                    </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                      <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                      <span class="visually-hidden">Next</span>
-                    </button>
-                </div>
-            </div>
-        </section>
 
-        <!-- Contact -->
-        <section id="contact" class="py-5 text-center " id="contact">
-            <h2 class="pb-3">Mon travail vous a plu, des questions ?</h2>
-            <h3>Contactez-moi</h3>
-            <div class="d-flex justify-content-around">
-                <div class="mail">
-                    <a href="mailto:brunod.dev@gmail.com?subject=Contact depuis votre portfolio">
-                        <i class="bi bi-envelope" id="mail"></i>
-                    </a>
-                    <p>M'écrire</p>
-                </div>
-                <div class="phone">                
-                    <a href="tel:+33615571097"><i class="bi bi-telephone"></i></a>
-                    <p>M'appeller</p>
-                </div>
-            </div>
-            
-        </section>
+            <div>
+              <h2 class="mt-5">IDE et outils utilisés</h2>
 
-        <!-- Scroll top -->
-        <a class="btn btn-danger" href="#accueil" id="scroll-top-btn">
-            <i class="bi bi-chevron-up"></i>
-        </a>
+              <div
+                class="row row-cols-1 row-cols-sm-2 row-cols-md-3 mt-5 all-skills"
+              >
+                <div class="p-3">
+                  <div class="card bg-dark p-3 border-light h-100">
+                    <img
+                      src="img/ide_outils/vs-code-logo.png"
+                      class="card-img-top"
+                      alt="Logo de Visual Studio Code"
+                    />
+                    <div class="card-body">
+                      <h5 class="card-title">Visual Studio Code</h5>
+                    </div>
+                  </div>
+                </div>
+                <div class="p-3">
+                  <div class="card bg-dark p-3 border-light h-100">
+                    <img
+                      src="img/ide_outils/jetBrains.png"
+                      class="card-img-top"
+                      alt="Logo de la Suite JetBrains"
+                    />
+                    <div class="card-body">
+                      <h5 class="card-title">Suite JetBrains</h5>
+                      <p class="text-secondary">
+                        IntelliJ IDEA, PHPHStorm, Webstorm
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="p-3">
+                  <div class="card bg-dark p-3 border-light h-100">
+                    <img
+                      src="img/ide_outils/eclipse.png"
+                      class="card-img-top"
+                      alt="Logo d'Eclipse"
+                    />
+                    <div class="card-body">
+                      <h5 class="card-title">Eclipse</h5>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="p-3">
+                  <div class="card bg-dark p-3 border-light h-100">
+                    <img
+                      src="img/ide_outils/spring-logo.png"
+                      class="card-img-top"
+                      alt="Logo de Spring tools suite"
+                    />
+                    <div class="card-body">
+                      <h5 class="card-title">Spring Tools Suite</h5>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="p-3">
+                  <div class="card bg-dark p-3 border-light h-100">
+                    <img
+                      src="img/ide_outils/mysqlcli.png"
+                      class="card-img-top"
+                      alt="Logo de MySQL CLI"
+                    />
+                    <div class="card-body">
+                      <h5 class="card-title">MySQL CLI</h5>
+                    </div>
+                  </div>
+                </div>
+                <div class="p-3">
+                  <div class="card bg-dark p-3 border-light h-100">
+                    <img
+                      src="img/ide_outils/SSMS.png"
+                      class="card-img-top"
+                      alt="SQL Server Management Studio"
+                    />
+                    <div class="card-body">
+                      <h5 class="card-title">SQL Server Management Studio</h5>
+                    </div>
+                  </div>
+                </div>
+                <div class="p-3">
+                  <div class="card bg-dark p-3 border-light h-100">
+                    <img
+                      src="img/ide_outils/phpMyAdmin.png"
+                      class="card-img-top"
+                      alt="Logo de hpMyAdmin"
+                    />
+                    <div class="card-body">
+                      <h5 class="card-title">PhpMyAdmin</h5>
+                    </div>
+                  </div>
+                </div>
+                <div class="p-3">
+                  <div class="card bg-dark p-3 border-light h-100">
+                    <img
+                      src="img/ide_outils/github.png"
+                      class="card-img-top"
+                      alt="Logo de Github"
+                    />
+                    <div class="card-body">
+                      <h5 class="card-title">Github</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div>
+              <h2 class="mt-5">Mes opens badges</h2>
+              <p class="text-secondary">
+                Retrouvez ici mes attestations délivrées par l'association
+                "Retravailler dans l'ouest" reconnaissant certaines de mes
+                aptitudes.
+              </p>
+              <div
+                class="row row-cols-1 row-cols-sm-2 row-cols-md-3 mt-5 all-skills"
+              >
+                <div class="p-3">
+                  <img
+                    src="img/openBadges/autonomie.png"
+                    alt="Open badge autonomie"
+                  />
+                </div>
+                <div class="p-3">
+                  <img
+                    src="img/openBadges/curiosita.png"
+                    alt="Open badge curiosité"
+                  />
+                </div>
+                <div class="p-3">
+                  <img
+                    src="img/openBadges/gestion-du-stress.png"
+                    alt="Open badge gestion du stress"
+                  />
+                </div>
+                <div class="p-3">
+                  <img
+                    src="img/openBadges/rigueur.png"
+                    alt="Open badge rigueur"
+                  />
+                </div>
+                <div class="p-3">
+                  <img
+                    src="img/openBadges/sens-de-l-organisation.png"
+                    alt="Open badge sens de l'organisation"
+                  />
+                </div>
+                <div class="p-3">
+                  <img
+                    src="img/openBadges/travail-en-a-quipe.png"
+                    alt="Open badge travail en équipe"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Réalisations -->
+      <section id="release" class="py-5 text-center">
+        <h2 class="mt-5">Mes réalisations</h2>
+        <p class="text-secondary pb-3">
+          Retrouvez ici quelques uns de mes projets
+        </p>
+        <div class="container py-3">
+          <div
+            id="carouselExampleCaptions"
+            class="carousel slide"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-indicators mb-0">
+              <button
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide-to="2"
+                aria-label="Slide 3"
+              ></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img
+                  src="img/dicegame.png"
+                  class="d-block m-auto img-thumbnail"
+                  alt="Image du jeu de dé"
+                />
+                <div class="py-3">
+                  <p class="description-release">
+                    <i>Un jeu de dé réalisé en HTML, CSS et javascript</i>
+                  </p>
+                  <p>
+                    Envie de jouer ?
+                    <a
+                      href="https://brunod32.github.io/lejeudede"
+                      target="_blank"
+                      >Lancer les dés</a
+                    >
+                  </p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="img/CharlesCantin.png"
+                  class="d-block m-auto img-thumbnail"
+                  alt="image site internet"
+                />
+                <div class="py-3">
+                  <p class="description-release">
+                    <i>Un site réalisé avec eleventy et forestry</i>
+                  </p>
+                  <p>
+                    <a
+                      href="https://charlescantinphotographe.netlify.app/index.html"
+                      target="_blank"
+                      >Consulter</a
+                    >
+                  </p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="img/Carnetdepeche.png"
+                  class="d-block m-auto img-thumbnail"
+                  alt="Le carnte de pêceh de Tom"
+                />
+                <div class="py-3">
+                  <p class="description-release">
+                    <i>Une application PHP/symfony</i>
+                  </p>
+                  <p>Oh ! La belle prise</p>
+                </div>
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact -->
+      <section id="contact" class="py-5 text-center" id="contact">
+        <h2 class="pb-3">Mon travail vous a plu, des questions ?</h2>
+        <h3>Contactez-moi</h3>
+        <div class="d-flex justify-content-around">
+          <div class="mail">
+            <a
+              href="mailto:brunod.dev@gmail.com?subject=Contact depuis votre portfolio"
+            >
+              <i class="bi bi-envelope" id="mail"></i>
+            </a>
+            <p>M'écrire</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Scroll top -->
+      <a class="btn btn-danger" href="#accueil" id="scroll-top-btn">
+        <i class="bi bi-chevron-up"></i>
+      </a>
     </main>
 
-<!-- Bootstrap Bundle with Popper -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-<script src="main.js"></script>
-</body>
+    <!-- Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="main.js"></script>
+  </body>
 </html>
